@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "cover":"cover/placeholder.jpg",
+    "playlistName": "Canil",
+    "songList": [
+      {
+        "id": 1,
+        "title": "Canil",
+        "path": "mp3/canil/canil.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Dia",
+        "path": "mp3/canil/dia.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Lar Podre Lar",
+        "path": "mp3/canil/lar_podre_lar.mp3"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "cover":"cover/placeholder.jpg",
+    "playlistName": "Ednaldo Pereira",
+    "songList": [
+      {
+        "id": 1,
+        "title": "Vale Nada Vale Tudo",
+        "path": "mp3/ednaldo_pereira/vale_nada_vale_tudo.mp3"
+      },
+      {
+        "id": 2,
+        "title": "What is The Brother?",
+        "path": "mp3/ednaldo_pereira/what_is_the_brother.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Banido Desbanido",
+        "path": "mp3/ednaldo_pereira/banido_desbanido.mp3"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "cover":"cover/placeholder.jpg",
+    "playlistName": "Just Shapes & Beats",
+    "songList": [
+      {
+        "id": 1,
+        "title": "Pegboard Nerds - Try This",
+        "path": "mp3/shapes_and_beats/try_this.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Destroid - Annihilate",
+        "path": "mp3/shapes_and_beats/destroid.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Noisestorm - Barracuda",
+        "path": "mp3/shapes_and_beats/barracuda.mp3"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "cover":"cover/placeholder.jpg",
+    "playlistName": "Rock",
+    "songList": [
+      {
+        "id": 1,
+        "title": "",
+        "path": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "cover":"cover/placeholder.jpg",
+    "playlistName": "Eletrônica",
+    "songList": [
+      {
+        "id": 1,
+        "title": "",
+        "path": ""
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "cover":"cover/placeholder.jpg",
+    "playlistName": "Retrowave",
+    "songList": [
+      {
+        "id": 1,
+        "title": "",
+        "path": ""
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "cover":"cover/placeholder.jpg",
+    "playlistName": "Eminem",
+    "songList": [
+      {
+        "id": 1,
+        "title": "",
+        "path": ""
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "cover":"cover/placeholder.jpg",
+    "playlistName": "Bardcore",
+    "songList": [
+      {
+        "id": 1,
+        "title": "",
+        "path": ""
+      }
+    ]
+  }
+]

@@ -1,9 +1,3 @@
-import express, { Request, Response } from 'express';
+import app from './app';
 
-const app = express();
-
-app.get('/', (req: Request, res: Response) => {
-  return res.json({ message: 'Testing node/typescript API! ' })
-})
-
-app.listen(3333); 
+app.listen(3333);

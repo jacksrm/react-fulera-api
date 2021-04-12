@@ -21,7 +21,7 @@
     /* adicionando o sistema de pastas raiz */
     "baseUrl": "./",
     "paths": {
-      
+      "@data/*": ["src/data/*"]
     }
   }
 }
