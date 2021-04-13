@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "cover":"cover/placeholder.jpg",
+    "cover":"cover/CANIL.jpg",
     "playlistName": "Canil",
     "songList": [
       {
@@ -23,7 +23,7 @@
   },
   {
     "id": 2,
-    "cover":"cover/placeholder.jpg",
+    "cover":"cover/EDNALDOPEREIRA.jpg",
     "playlistName": "Ednaldo Pereira",
     "songList": [
       {
@@ -45,7 +45,7 @@
   },
   {
     "id": 3,
-    "cover":"cover/placeholder.jpg",
+    "cover":"cover/JUSTSHAPES&BEATS.jpg",
     "playlistName": "Just Shapes & Beats",
     "songList": [
       {
@@ -67,61 +67,111 @@
   },
   {
     "id": 4,
-    "cover":"cover/placeholder.jpg",
+    "cover":"cover/ROCK.jpg",
     "playlistName": "Rock",
     "songList": [
       {
         "id": 1,
-        "title": "",
-        "path": ""
+        "title": "Rapsody of Fire - Dawn of Victory",
+        "path": "mp3/rock/down_of_victory.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Guns N' Roses - Sweet Child O' Mine",
+        "path": "mp3/rock/sweet_child.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Foo Fighters - The Pretender",
+        "path": "mp3/rock/the_pretender.mp3"
       }
     ]
   },
   {
     "id": 5,
-    "cover":"cover/placeholder.jpg",
+    "cover":"cover/ELETRONICA.jpg",
     "playlistName": "Eletrônica",
     "songList": [
       {
         "id": 1,
-        "title": "",
-        "path": ""
+        "title": "Alan Walker - Alone",
+        "path": "mp3/eletronica/alone.mp3"
+      },
+      {
+        "id": 2,
+        "title": "LMFAO - Party Rock Anthen",
+        "path": "mp3/eletronica/party_rock.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Sloth Syndrome & Brevis - Give U",
+        "path": "mp3/eletronica/giv_u.mp3"
       }
     ]
   },
   {
     "id": 6,
-    "cover":"cover/placeholder.jpg",
+    "cover":"cover/RETROWAVE.jpg",
     "playlistName": "Retrowave",
     "songList": [
       {
         "id": 1,
-        "title": "",
-        "path": ""
+        "title": "Stellar Dreams - Dimensions",
+        "path": "mp3/retrowave/dimensions.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Thunder Porpoise - Oppenheimer's Gambit",
+        "path": "mp3/retrowave/oppenheimers_gambit.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Zero Dark Hundred (Original Mix)",
+        "path": "mp3/retrowave/zero_dark_hundred.mp3"
       }
     ]
   },
   {
     "id": 7,
-    "cover":"cover/placeholder.jpg",
+    "cover":"cover/EMINEM.jpg",
     "playlistName": "Eminem",
     "songList": [
       {
         "id": 1,
-        "title": "",
-        "path": ""
+        "title": "Without Me",
+        "path": "mp3/eminem/without_me.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Cleanin' Out My Closet",
+        "path": "mp3/eminem/cleanin_closet.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Lose Yourself",
+        "path": "mp3/eminem/lose_yourself.mp3"
       }
     ]
   },
   {
     "id": 8,
-    "cover":"cover/placeholder.jpg",
+    "cover":"cover/BARDCORE.jpg",
     "playlistName": "Bardcore",
     "songList": [
       {
         "id": 1,
-        "title": "",
-        "path": ""
+        "title": "Fear Of The Dark",
+        "path": "mp3/bardcore/fear_of_the_dark.mp3"
+      },
+      {
+        "id": 2,
+        "title": "House Of The Rising Sun",
+        "path": "mp3/bardcore/house_of_rising_sun.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Love Theme - The Godfather",
+        "path": "mp3/bardcore/love_theme_god_father.mp3"
       }
     ]
   }
