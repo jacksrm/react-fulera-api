@@ -1,0 +1,186 @@
+[
+  {
+    "playlistId": 1,
+    "songList": [
+      {
+        "id": 1,
+        "title": "Canil",
+        "path": "mp3/canil/canil.mp3",
+        "author": "Canil"
+      },
+      {
+        "id": 2,
+        "title": "Dia",
+        "path": "mp3/canil/dia.mp3",
+        "author": "Canil"
+      },
+      {
+        "id": 3,
+        "title": "Lar Podre Lar",
+        "path": "mp3/canil/lar_podre_lar.mp3",
+        "author": "Canil"
+      }
+    ]
+  },
+  {
+    "playlistId": 2,
+    "songList": [
+      {
+        "id": 1,
+        "title": "Vale Nada Vale Tudo",
+        "path": "mp3/ednaldo_pereira/vale_nada_vale_tudo.mp3",
+        "author": "Ednaldo Pereira"
+      },
+      {
+        "id": 2,
+        "title": "What is The Brother?",
+        "path": "mp3/ednaldo_pereira/what_is_the_brother.mp3",
+        "author": "Ednaldo Pereira"
+      },
+      {
+        "id": 3,
+        "title": "Banido Desbanido",
+        "path": "mp3/ednaldo_pereira/banido_desbanido.mp3",
+        "author": "Ednaldo Pereira"
+      }
+    ]
+  },
+  {
+    "playlistId": 3,
+    "songList": [
+      {
+        "id": 1,
+        "title": "Try This",
+        "path": "mp3/shapes_and_beats/try_this.mp3",
+        "author": "Pegboard Nerds"
+      },
+      {
+        "id": 2,
+        "title": "Annihilate",
+        "path": "mp3/shapes_and_beats/destroid.mp3",
+        "author": "Destroid"
+      },
+      {
+        "id": 3,
+        "title": "Barracuda",
+        "path": "mp3/shapes_and_beats/barracuda.mp3",
+        "author": "Noisestorm"
+      }
+    ]
+  },
+  {
+    "playlistId": 4,
+    "songList": [
+      {
+        "id": 1,
+        "title": "Dawn of Victory",
+        "path": "mp3/rock/down_of_victory.mp3",
+        "author": "Rhapsody of Fire"
+      },
+      {
+        "id": 2,
+        "title": "Sweet Child O' Mine",
+        "path": "mp3/rock/sweet_child.mp3",
+        "author": "Guns N' Roses"
+      },
+      {
+        "id": 3,
+        "title": "The Pretender",
+        "path": "mp3/rock/the_pretender.mp3",
+        "author": "Foo Fighters"
+      }
+    ]
+  },
+  {
+    "playlistId": 5,
+    "songList": [
+      {
+        "id": 1,
+        "title": "Alone",
+        "path": "mp3/eletronica/alone.mp3",
+        "author": "Alan Walker"
+      },
+      {
+        "id": 2,
+        "title": "Party Rock Anthem",
+        "path": "mp3/eletronica/party_rock.mp3",
+        "author": "LMFAO"
+      },
+      {
+        "id": 3,
+        "title": "Give U",
+        "path": "mp3/eletronica/giv_u.mp3",
+        "author": "Sloth Syndrome & Brevis"
+      }
+    ]
+  },
+  {
+    "playlistId":6,
+    "songList": [
+      {
+        "id": 1,
+        "title": "Dimensions",
+        "path": "mp3/retrowave/dimensions.mp3",
+        "author": "Stellar Dreams"
+      },
+      {
+        "id": 2,
+        "title": "Oppenheimer's Gambit",
+        "path": "mp3/retrowave/oppenheimers_gambit.mp3",
+        "author": "Thunder Porpoise"
+      },
+      {
+        "id": 3,
+        "title": "Zero Dark Hundred (Original Mix)",
+        "path": "mp3/retrowave/zero_dark_hundred.mp3",
+        "author": "PinOut"
+      }
+    ]
+  },
+  {
+    "playlistId": 7,
+    "songList": [
+      {
+        "id": 1,
+        "title": "Without Me",
+        "path": "mp3/eminem/without_me.mp3",
+        "author": "Eminem"
+      },
+      {
+        "id": 2,
+        "title": "Cleanin' Out My Closet",
+        "path": "mp3/eminem/cleanin_closet.mp3",
+        "author": "Eminem"
+      },
+      {
+        "id": 3,
+        "title": "Lose Yourself",
+        "path": "mp3/eminem/lose_yourself.mp3",
+        "author": "Eminem"
+      }
+    ]
+  },
+  {
+    "playlistId": 8,
+    "songList": [
+      {
+        "id": 1,
+        "title": "Fear Of The Dark",
+        "path": "mp3/bardcore/fear_of_the_dark.mp3",
+        "author": "Bardcore Version"
+      },
+      {
+        "id": 2,
+        "title": "House Of The Rising Sun",
+        "path": "mp3/bardcore/house_of_rising_sun.mp3",
+        "author": "Bardcore Version"
+      },
+      {
+        "id": 3,
+        "title": "Love Theme - The Godfather",
+        "path": "mp3/bardcore/love_theme_god_father.mp3",
+        "author": "Bardcore Version"
+      }
+    ]
+  }
+]

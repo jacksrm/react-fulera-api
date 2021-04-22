@@ -21,7 +21,8 @@
     /* adicionando o sistema de pastas raiz */
     "baseUrl": "./",
     "paths": {
-      "@data/*": ["src/data/*"]
+      "@data/*": ["src/data/*"],
+      "@routes/*": ["src/routes/*"]
     }
   }
 }

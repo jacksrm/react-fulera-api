@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "cover":"cover/CANIL.jpg",
+    "playlistName": "Canil"
+  },
+  {
+    "id": 2,
+    "cover":"cover/EDNALDOPEREIRA.jpg",
+    "playlistName": "Ednaldo Pereira"
+  },
+  {
+    "id": 3,
+    "cover":"cover/JUSTSHAPES&BEATS.jpg",
+    "playlistName": "Just Shapes & Beats"
+  },
+  {
+    "id": 4,
+    "cover":"cover/ROCK.jpg",
+    "playlistName": "Rock"
+  },
+  {
+    "id": 5,
+    "cover":"cover/ELETRONICAS.jpg",
+    "playlistName": "Eletrônica"
+  },
+  {
+    "id": 6,
+    "cover":"cover/RETROWAVE.jpg",
+    "playlistName": "Retrowave"
+  },
+  {
+    "id": 7,
+    "cover":"cover/EMINEM.jpg",
+    "playlistName": "Eminem"
+  },
+  {
+    "id": 8,
+    "cover":"cover/BARDCORE.jpg",
+    "playlistName": "Bardcore"
+  }
+]

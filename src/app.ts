@@ -1,6 +1,9 @@
-import express, { Request, Response } from 'express';
+import express from 'express';
 import cors from 'cors';
-import songData from '@data/songData.json';
+
+import playlistInfoRoutes from '@routes/playlistInfoRoutes';
+import songListInfoRoutes from '@routes/songListInfoRoutes';
+import FAQDataRoutes from '@routes/FAQDataRoutes';
 
 const app = express();
 
@@ -9,8 +12,9 @@ app.use(express.static(__dirname + '/../public/'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.get('/songs',(req: Request, res: Response) => {
-  return res.json(songData)
-})
+app.use('/playlists', playlistInfoRoutes);
+app.use('/songs', songListInfoRoutes);
+app.use('/FAQ', FAQDataRoutes);
+
 
 export default app;
