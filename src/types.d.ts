@@ -26,3 +26,17 @@ type TFAQ = {
   title: string,
   perguntas: TFAQItem[]
 }
+
+type TUser = {
+  id: number,
+  email: string,
+  password: string,
+  name: string,
+  birth: string,
+  gender: string
+}
+
+type TSetUserResponse = {
+  message?: string,
+  error?: string
+}

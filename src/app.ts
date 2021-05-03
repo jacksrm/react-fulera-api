@@ -1,9 +1,11 @@
 import express from 'express';
 import cors from 'cors';
+import errors from './utils/errors'
 
 import playlistInfoRoutes from '@routes/playlistInfoRoutes';
 import songListInfoRoutes from '@routes/songListInfoRoutes';
 import FAQDataRoutes from '@routes/FAQDataRoutes';
+import registerRoutes from '@routes/registerRoutes';
 
 const app = express();
 
@@ -15,6 +17,8 @@ app.use(express.json());
 app.use('/playlists', playlistInfoRoutes);
 app.use('/songs', songListInfoRoutes);
 app.use('/FAQ', FAQDataRoutes);
+app.use('/register', registerRoutes)
 
+app.use(errors())
 
 export default app;
