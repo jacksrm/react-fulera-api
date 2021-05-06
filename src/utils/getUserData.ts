@@ -12,7 +12,5 @@ export default async function getUserData() {
       lastId = user.id;
       newId = lastId + 1 ;
     });
-    
-  
   return { users, lastId, newId };
 }
