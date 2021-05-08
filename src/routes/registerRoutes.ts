@@ -25,9 +25,9 @@ route.post(
     const response = await setUserData(newUser);
 
     if(response.error) 
-      return res.status(400).json({ message: response.error });
+      return res.status(response.status).json({ message: response.error });
 
-    return res.json({ message: 'User successfully registered!' }).status(200);
+    return res.status(response.status).json({ message: response.message });
   }
 );
 

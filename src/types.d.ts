@@ -36,7 +36,16 @@ type TUser = {
   gender: string
 }
 
+type TUserUpdate = {
+  email?: string,
+  password?: string,
+  name?: string,
+  birth?: string,
+  gender?: string
+}
+
 type TSetUserResponse = {
   message?: string,
   error?: string
+  status: number
 }
