@@ -256,14 +256,6 @@
     "gender": "F"
   },
   {
-    "id": 32,
-    "email": "jacson.s.r1@gmail.com",
-    "password": "Pa$$w0rd!",
-    "name": "Jacson De Sousa Rodrigues",
-    "birth": "1975-05-06T00:00:00.000Z",
-    "gender": "X"
-  },
-  {
     "id": 33,
     "email": "teste@teste.com",
     "password": "wfwfwfwefwefwef",
@@ -277,6 +269,22 @@
     "password": "Pa$$w0rd!",
     "name": "Britanney Rose",
     "birth": "1996-12-16T00:00:00.000Z",
+    "gender": "F"
+  },
+  {
+    "id": 35,
+    "email": "jacson.s.r1@gmail.com",
+    "password": "12345678",
+    "name": "Jacson Rodrigues",
+    "birth": "1995-10-22T00:00:00.000Z",
+    "gender": "M"
+  },
+  {
+    "id": 36,
+    "email": "rocyrop@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "name": "Tallulah Morrison",
+    "birth": "2009-12-24T00:00:00.000Z",
     "gender": "F"
   }
 ]
