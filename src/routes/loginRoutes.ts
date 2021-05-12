@@ -24,4 +24,21 @@ route.post('/login', async (req: Request, res: Response) => {
   });
 });
 
+route.get('/session/:id', async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const { users } = await getUserData();
+
+  const matchedUser = users.filter((user) => user.id === parseInt(id))[0];
+
+  if (!matchedUser) return res.status(404).json({ message: 'There\'s no such user!' });
+
+  return res.status(200).json({
+    userURL: matchedUser.name.replace(/\s/g, ''),
+    user: {
+      name: matchedUser.name,
+      id: matchedUser.id,
+    },
+  });
+});
+
 export default route;

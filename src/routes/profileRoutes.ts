@@ -1,8 +1,23 @@
 import express, { Request, Response } from 'express';
 import profileValidation from 'src/middleware/profileValidation';
+import getUserData from 'src/utils/getUserData';
 import updateUserData from 'src/utils/updateUserData';
 
 const route = express.Router();
+
+route.get('/:id', async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const { users } = await getUserData();
+
+  const matchedUser = users.filter( user => user.id === parseInt(id))[0]
+
+  if(!matchedUser) return res.status(404).json({ message: 'User not found!' }) ;
+
+  matchedUser.password = ''
+  matchedUser.birth = matchedUser.birth.substr(0, 10)
+  
+  res.status(200).json(matchedUser);
+})
 
 route.patch(
   '/update/:id',
