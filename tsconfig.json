@@ -22,7 +22,8 @@
     "baseUrl": "./",
     "paths": {
       "@data/*": ["src/data/*"],
-      "@routes/*": ["src/routes/*"]
+      "@routes/*": ["src/routes/*"],
+      "@/*": ["src/*"]
     }
   }
 }

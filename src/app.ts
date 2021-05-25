@@ -1,9 +1,10 @@
 import express from 'express';
 import cors from 'cors';
-import errors from './utils/errors'
 
-import playlistInfoRoutes from '@routes/playlistInfoRoutes';
-import songListInfoRoutes from '@routes/songListInfoRoutes';
+import errors from '@/utils/errors'
+
+import playlistRoutes from '@routes/playlistRoutes';
+import songListRoutes from '@routes/songListRoutes';
 import FAQDataRoutes from '@routes/FAQDataRoutes';
 import registerRoutes from '@routes/registerRoutes';
 import loginRoutes from '@routes/loginRoutes';
@@ -17,8 +18,8 @@ app.use(express.static(__dirname + '/../public/'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use('/playlists', playlistInfoRoutes);
-app.use('/songs', songListInfoRoutes);
+app.use('/playlists', playlistRoutes);
+app.use('/songs', songListRoutes);
 app.use('/FAQ', FAQDataRoutes);
 app.use('/register', registerRoutes);
 app.use('/profile', loginRoutes);

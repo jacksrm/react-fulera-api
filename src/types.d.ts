@@ -6,13 +6,32 @@ type TSong = {
   author: string
 }
 
+type TNewPlaylistSong = {
+  playlistId: number
+  title: string,
+  path: string,
+  author: string
+}
+
 type TSongList = {
   playlistId: number,
   songList: Array<TSong>
 }
 
 type TPlaylist = {
+  userId?: number,
   id: number,
+  cover: string,
+  playlistName: string
+}
+
+type TPlaylistUpdate = {
+  cover?: string,
+  playlistName?: string
+}
+
+type TNewUserPlaylist = {
+  userId?: number,
   cover: string,
   playlistName: string
 }
@@ -44,7 +63,7 @@ type TUserUpdate = {
   gender?: string
 }
 
-type TSetUserResponse = {
+type TSetResponse = {
   message?: string,
   error?: string
   status: number

@@ -1,5 +1,6 @@
 import express, { Request, Response } from 'express';
-import getFAQData from 'src/utils/getFAQData';
+
+import getFAQData from '@/utils/getFAQData';
 
 const route = express.Router();
 

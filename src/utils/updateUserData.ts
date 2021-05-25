@@ -1,10 +1,10 @@
 import fs from 'fs';
 
-export default async function updateUserData(id: number, data: TUserUpdate) {
+const updateUserData = async (id: number, data: TUserUpdate) => {
   const path = __dirname + '/../data/userData.json';
   let users: TUser[];
   let userBuff = fs.readFileSync(path);
-  let response: TSetUserResponse =  {} as TSetUserResponse;
+  let response: TSetResponse = {} as TSetResponse;
 
   users = JSON.parse(userBuff.toString());
 
@@ -15,31 +15,33 @@ export default async function updateUserData(id: number, data: TUserUpdate) {
 
   if (!matchedUser) {
     response.error = 'Theres a problem in your request!';
-    response.status = 401
+    response.status = 401;
     return response;
   }
 
   if (matchedUserEmail.length > 0) {
     response.error = 'Email already registered!';
-    response.status = 400
+    response.status = 400;
     return response;
   }
 
   const updatedUsers = users.map((user) => {
     if (user.id === id) {
-      user.email = data.email ? data.email : user.email;
-      user.password = data.password ? data.password : user.password;
-      user.name = data.name ? data.name : user.name;
-      user.birth = data.birth ? data.birth : user.birth;
-      user.gender = data.gender ? data.gender : user.gender;
+      user.email = data.email || user.email;
+      user.password = data.password || user.password;
+      user.name = data.name || user.name;
+      user.birth = data.birth || user.birth;
+      user.gender = data.gender || user.gender;
     }
-     
+
     return user;
   });
 
   fs.writeFileSync(path, JSON.stringify(updatedUsers, null, 2));
 
   response.message = 'Updated successfully!';
-  response.status = 200
+  response.status = 200;
   return response;
-}
+};
+
+export default updateUserData;

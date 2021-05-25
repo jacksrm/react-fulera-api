@@ -1,9 +1,9 @@
 import express, { Request, Response } from 'express';
 
-import registerValidation from '../middleware/registerValidation';
+import registerValidation from '@/middleware/registerValidation';
 
-import getUserData from 'src/utils/getUserData';
-import setUserData from 'src/utils/setUserData';
+import getUserData from '@/utils/getUserData';
+import setUserData from '@/utils/setUserData';
 
 const route = express.Router();
 

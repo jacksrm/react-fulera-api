@@ -1,7 +1,8 @@
 import express, { Request, Response } from 'express';
-import profileValidation from 'src/middleware/profileValidation';
-import getUserData from 'src/utils/getUserData';
-import updateUserData from 'src/utils/updateUserData';
+
+import profileValidation from '@/middleware/profileValidation';
+import getUserData from '@/utils/getUserData';
+import updateUserData from '@/utils/updateUserData';
 
 const route = express.Router();
 
@@ -19,7 +20,7 @@ route.get('/:id', async (req: Request, res: Response) => {
   res.status(200).json(matchedUser);
 })
 
-route.patch(
+route.put(
   '/update/:id',
   profileValidation.update(),
   async (req: Request, res: Response) => {

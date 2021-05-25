@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
 
-import getUserData from 'src/utils/getUserData';
+import getUserData from '@/utils/getUserData';
 
 const route = express.Router();
 

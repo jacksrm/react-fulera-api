@@ -4,7 +4,7 @@ export default async function setUserData(newUser: TUser) {
   const path = __dirname + '/../data/userData.json'
   let users: TUser[];
   let userBuff = fs.readFileSync(path);
-  let response: TSetUserResponse = {} as TSetUserResponse
+  let response: TSetResponse = {} as TSetResponse
 
   users = JSON.parse(userBuff.toString());
 

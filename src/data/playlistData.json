@@ -1,42 +1,54 @@
 [
   {
-    "id": 1,
-    "cover":"cover/CANIL.jpg",
+    "id": 0,
+    "cover": "cover/CANIL.jpg",
     "playlistName": "Canil"
   },
   {
-    "id": 2,
-    "cover":"cover/EDNALDOPEREIRA.jpg",
+    "id": 1,
+    "cover": "cover/EDNALDOPEREIRA.jpg",
     "playlistName": "Ednaldo Pereira"
   },
   {
-    "id": 3,
-    "cover":"cover/JUSTSHAPES&BEATS.jpg",
+    "id": 2,
+    "cover": "cover/JUSTSHAPES&BEATS.jpg",
     "playlistName": "Just Shapes & Beats"
   },
   {
-    "id": 4,
-    "cover":"cover/ROCK.jpg",
+    "id": 3,
+    "cover": "cover/ROCK.jpg",
     "playlistName": "Rock"
   },
   {
-    "id": 5,
-    "cover":"cover/ELETRONICAS.jpg",
+    "id": 4,
+    "cover": "cover/ELETRONICAS.jpg",
     "playlistName": "Eletrônica"
   },
   {
-    "id": 6,
-    "cover":"cover/RETROWAVE.jpg",
+    "id": 5,
+    "cover": "cover/RETROWAVE.jpg",
     "playlistName": "Retrowave"
   },
   {
-    "id": 7,
-    "cover":"cover/EMINEM.jpg",
+    "id": 6,
+    "cover": "cover/EMINEM.jpg",
     "playlistName": "Eminem"
   },
   {
-    "id": 8,
-    "cover":"cover/BARDCORE.jpg",
+    "id": 7,
+    "cover": "cover/BARDCORE.jpg",
     "playlistName": "Bardcore"
+  },
+  {
+    "id": 8,
+    "userId": 0,
+    "cover": "cover/placeholder_teste_blblabla.jpg",
+    "playlistName": "Teste de criação de PlayLists"
+  },
+  {
+    "id": 9,
+    "userId": 35,
+    "cover": "cover/1621984554380_placeholder_teste_blblabla.jpg",
+    "playlistName": "Playlist Foda"
   }
 ]
